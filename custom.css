@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body, html
+{
+    color:rgba(120,120,120,1);
+    line-height: 1.4;
+}
+
+.actions-panel a
+{
+    text-decoration: none;
+}
+
+.c-spacer
+{
+    height: 50px;
+    margin-top: 25px;
+}
+
+.c-valign-center
+{
+    line-height: 40px;
+}
+
+.navbar-default
+{
+}
+
+.navbar-brand
+{
+    font-weight: bolder;
+}
+
+.tab-content
+{
+    margin-top: 45px;
+}
+
+.text-primary
+{
+
+}
+
+
+
+

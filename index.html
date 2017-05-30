@@ -1,0 +1,325 @@
+<!--
+Designed & Developed by Pascal Lola
+
+Fellow designers: use this to make your ideation and rapid prototyping rapid and clear to your audience. I know the pain of scouring around for visualizations without wasting time in Axure, Illustrator, or Google Images trying to find the right visualization to convey an idea in a design. 
+
+The Rest: Enjoy as well :-)
+-->
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Generate Random Charts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">	
+    <meta name="author" content="Pascal Lola">
+    <meta name="keywords" content="generate random data, generate random visualization, test data, sample data, mock data, random visualization, random charts, wireframes, design, ux, charts, random data, visualize random data, bar graph, line graph, pie graph, polar area chart, doughnut chart, radar chart, stock charts, pascal lola">
+    <meta name="description" content="Randomize and customize chart visualizations to include in your design mock ups.">
+
+    <!--BOOTSTRAP STUFF -->
+    <link rel="stylesheet" href="custom-bootstrap-theme.css">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"/>-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">-->
+
+    <!--OTHER STUFF -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.5.0/bootstrap-table.min.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="custom.css"/>
+    <link rel="stylesheet" type="text/css" href="bootstrap-colorselector.css" />
+    <link rel="stylesheet" type="text/css" href="bootstrap-tagsinput.css"/>
+
+</head>
+
+
+<body>
+    <!--NAVIGATION CONTENT-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" >
+        <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="glyphicon glyphicon-menu-hamburger" style="color:white;"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">random.charts</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#aboutPanel" data-toggle="pill">about</a></li>
+                    <li><a href="#barPanel" data-toggle="pill">bar</a></li>
+                    <li><a href="#linePanel" data-toggle="pill">line</a></li>
+                    <li><a href="#piePanel" data-toggle="pill">pie</a></li>
+                    <li><a href="#doughnutPanel" data-toggle="pill">doughnut</a></li>
+                    <li><a href="#radarPanel" data-toggle="pill">radar</a></li>
+                    <li><a href="#polarAreaPanel" data-toggle="pill">polar</a></li>
+                    <li><a href="#mapPanel" data-toggle="pill">map</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CREATE A DYNAMIC CHART HEADER ON THIS PAGE See example @ http://carlcraig.github.io/tc-angular-chartjs/
+    <div class="container-fluid" id="header-image-container">
+        <div class="row">
+            <img src="assets/PHE63L27S6.jpg" class="img-responsive"/>
+        </div>
+    </div>-->
+    
+    <!--MAIN BODY CONTENT-->    
+    <div class="container tab-content">
+        <div id="aboutPanel" class="tab-pane active fade in">
+            <div class="row featurette">
+                <div class="col-md-12">
+                    <h3 class="featurette-heading text-primary">Generate Random Charts</h3>
+                    <p class="lead">Stop using not-so-random, clunky charts in your design concepts. Nor do you have to waste time searching for images of charts on Google, or building your own visualizations in Excel, Illustrator, or Axure just to illsutrate a concept. Now you can generate more meaningful visualizations. </p>                
+                </div>
+            </div>
+            
+            <!--ALLOW USER TO CHOOSE CHART, RANDOMIZE, AND GENERATE RIGHT FROM THESE -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <!--<video width="100%" height="auto" autoplay loop>
+                        <source src="assets/choose-chart.mp4" type="video/mp4">
+                        <source src="assets/choose-chart.ogg" type="video/ogg">
+                        Your browser does not support HTML5 video.
+                    </video>-->
+                    <img class="img-square" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 100%; height: 200px;">
+                    <h3 class="featurette-heading text-primary">Choose Chart</h3>
+                    <p class="lead">First select which chart type you would like to generate. Currently you can generate random data for a bar, line, pie, doughnut, radar, polar area, and map charts. Future functionality will include other visualization types.</p>
+                </div>
+
+                <div class="col-lg-4">
+                    <img class="img-square" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 100%; height: 200px;">
+                    <h3 class="text-primary">Randomize &amp; Customize</h3>
+                    <p class="lead">You can use the default data and chart styles, or you can apply custom preferences. You can set the number of data points, data sets, minimum and maximum values, and more. You can also set chart style properties like colors.</p>
+                </div>
+            
+                <div class="col-lg-4">
+                    <img class="img-square" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 100%; height: 200px;">
+                    <h3 class="text-primary">Download Chart</h3>
+                    <p class="lead">After you have done all your customizations, all you have to do is download the image or copy and paste it into whichever tool you are using to illustrate your concept (e.g. Axure, Photoshop, Illustrator, etc). </p>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!--Generate Bar Chart Panel-->
+        <div class="tab-pane fade" id="barPanel">            
+            <div class="row featurette">
+                <div class="col-md-12">
+                    <h3 class="featurette-heading text-primary">Generate Bar Chart</h3>
+                    <p class="lead">Bar charts are great for visualizing grouped categories.</p>
+                </div>
+            </div>  
+            <div class="row">
+                <div class="col-md-12 chartArea">
+                    <!--Actions Panel-->
+                    <ul class="btn-group actions-panel pull-right">
+                        <li class="btn btn-default"><a href="" id="customize-button" data-toggle="modal" data-target="#chartModal"><span class="fa fa-sliders" aria-hidden="true"></span> customize </a></li>
+                        <li class="btn btn-default"><a href="" id="download-button"><span class="glyphicon glyphicon-download" aria-hidden="true"></span> download</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!--Generate Line Chart Panel-->        
+        <div class="tab-pane fade" id="linePanel">
+            <div class="row featurette">
+                <div class="col-md-12">
+                    <h3 class="featurette-heading text-primary">Generate Line Chart<span class="text-muted"></span></h3>
+                    <p class="lead">Line charts are great for visualizing continuous data and showing trends or change over time.</p>
+                </div>
+            </div>  
+            <div class="row">
+                <div class="col-md-12 chartArea">
+                </div>
+            </div>
+        </div>
+        
+        <!--Generate Pie Chart Panel-->                
+        <div class="tab-pane fade" id="piePanel">
+            <div class="row featurette">
+                <div class="col-md-12">
+                    <h2 class="featurette-heading text-primary">Generate Pie Chart<span class="text-muted"></span></h2>
+                    <p class="lead">Pie charts are great for...</p>
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-md-12 chartArea">
+                </div>
+            </div>
+        </div>
+        
+        <!--Generate Doughnut Chart Panel-->                        
+        <div class="tab-pane fade" id="doughnutPanel">
+            <div class="row featurette">
+                <div class="col-md-12">
+                    <h3 class="featurette-heading text-primary">Generate Doughnut Chart<span class="text-muted"></span></h3>
+                    <p class="lead">Doughnut charts, like pie charts, are great for ...</p>
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-md-12 chartArea">
+                </div>
+            </div>
+        </div>
+
+        <!--Generate Radar Chart Panel-->                        
+        <div class="tab-pane fade" id="radarPanel">
+            <div class="row featurette">
+                <div class="col-md-12">
+                    <h3 class="featurette-heading text-primary">Generate Radar Chart<span class="text-muted"></span></h3>
+                    <p class="lead">Radar charts are great for ...</p>
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-md-12 chartArea">
+                </div>
+            </div>
+        </div>
+
+        <!--Generate Polar Area Chart Panel-->                        
+        <div class="tab-pane fade" id="polarAreaPanel">
+            <div class="row featurette">
+                <div class="col-md-12">
+                    <h3 class="featurette-heading text-primary">Generate Polar Area Chart<span class="text-muted"></span></h3>
+                    <p class="lead">Polar Area charts are great for ...</p>
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-md-12 chartArea">
+                </div>
+            </div>
+        </div>
+
+        <!--Generate Map Panel-->                        
+        <div class="tab-pane fade" id="mapPanel">
+            <div class="row featurette">
+                <div class="col-md-12">
+                    <h3 class="featurette-heading text-primary">Generate Geographical Map<span class="text-muted"></span></h3>
+                    <p class="lead">Maps are great for showing...</p>
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-md-12 chartArea">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal Content-->
+    <div class="modal fade" id="chartModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h3 class="modal-title" id="modalLabel">Customize</h3>
+            </div>
+            
+            <div class="modal-body" style="max-height:490px; overflow-y: scroll;">
+                <form id="customize-form">
+                    <div class="row data-options-panel">
+                        <div class="col-xs-12">
+                            <h4>Data</h4>
+                        </div>
+                        <div class="col-md-3 col-xs-6 form-group">
+                            <label for="data-points" class="control-label">X Axis Sets</label>
+                            <input type="number" min="2" max="20" class="form-control" id="data-points" required onchange="onXaxisChange(event);">
+                        </div>
+                        <div class="col-md-3 col-xs-6 form-group">
+                            <label for="items-per-set" class="control-label">Items Per Set</label>
+                            <input type="number"  min="1" max="5" class="form-control" id="items-per-set" required onchange="onOptionChange(event);">  
+                        </div>
+                        <div class="col-md-3 col-xs-6 form-group">
+                            <label for="min-value" class="control-label">Minimum Value</label>
+                            <input type="number" class="form-control" id="min-value" required>  
+                        </div>
+                        <div class="col-md-3 col-xs-6 form-group">
+                            <label for="max-value" class="control-label">Maximum Value</label>
+                            <input type="number" class="form-control" id="max-value" required>  
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>X Axis Labels</h4>
+                        </div>
+                        <div class="col-xs-12 form-group x-axis-labels">
+                            <input id="x-axis-input" type="text" class="form-control" data-role="tagsinput">                            
+                            <p class="help-block x-axis-labels-max-label"></p>
+                        </div>
+                    </div>
+                    
+                    <div class="row items-panel">
+                        <div class="col-xs-6">
+                            <h4>Set Items/Categories</h4>
+                        </div>
+                        <div class="col-xs-6">
+                            <h4>Colors</h4>
+                        </div>
+                    </div>
+                    <div class="row item-option">
+                        <div class="col-xs-6 form-group item-name">
+                            <input type="text" class="form-control" value="">  
+                        </div>
+                        <div class="col-xs-6 form-group item-color">
+                            <select class="colorselector">
+                                <option value="106" data-color="#008CBA" selected="selected">blue</option>
+                                <option value="87" data-color="#F1C40F">sunflower</option>
+                                <option value="47" data-color="#1ABC9C">turquoise</option>
+                                <option value="15" data-color="#E74C3C">alizarin</option>
+                                <option value="24" data-color="#E67E22">carrot</option>
+                                <option value="78" data-color="#95A5A6">concrete</option>
+                                <option value="12" data-color="#34495E">wet asphalt</option>
+                                <option value="13" data-color="#9B59B6">amethyst</option>
+                            </select> 
+                        </div>
+                    </div>
+                    <div class="row item-option">
+                        <div class="col-xs-6 form-group item-name">
+                            <input type="text" class="form-control">  
+                        </div>
+                        <div class="col-xs-6 form-group item-color">
+                            <select class="colorselector">
+                                <option value="106" data-color="#008CBA">blue</option>
+                                <option value="87" data-color="#F1C40F" selected="selected">sunflower</option>
+                                <option value="47" data-color="#1ABC9C">turquoise</option>
+                                <option value="15" data-color="#E74C3C">alizarin</option>
+                                <option value="24" data-color="#E67E22">carrot</option>
+                                <option value="78" data-color="#95A5A6">concrete</option>
+                                <option value="12" data-color="#34495E">wet asphalt</option>
+                                <option value="13" data-color="#9B59B6">amethyst</option>
+                            </select> 
+                        </div>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="modal-footer">
+                <button type="button" class="btn btn-defaul" data-dismiss="modal">Cancel</button>
+                <button id="save-button" class="btn btn-primary btn-info">Save</button>
+            </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--Run these scripts last, after the body has loaded-->                        
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>   
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="ChartJS/Chart.js"></script>
+    <script type="text/javascript" src="custom.js"></script>
+    <script type="text/javascript" src="bootstrap-colorselector.js"></script>
+    <script type="text/javascript" src="bootstrap-tagsinput.js"></script>
+    
+    <!--For Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-60505317-1', 'auto');
+        ga('require', 'linkid', 'linkid.js');
+        ga('send', 'pageview');
+    </script>
+</body>
+</html>
+
