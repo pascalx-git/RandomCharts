@@ -1,7 +1,7 @@
 /* 
- * Pascal Lola
+ * Pascal
  * Updated 04/10/2015
- * Use as you would like. Feel free to donate at https://cash.me/$tresor
+ * Use as you would like.
  */
 
 //the line of code below will remove certain "irrelevant" javascript warnings
